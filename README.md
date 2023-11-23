@@ -46,7 +46,7 @@ UI.Screen.ShowSubtitle(formattedString, 5000);
 Contributions are welcome! Feel free to submit issues, feature requests, or pull requests.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the Apache License 2.0 - [LICENSE.txt](LICENSE.txt).
 ```vbnet
 Remember to replace `"path/to/languagefile.xml"`, `"StringKey"`, `"WelcomeMessage"`, `param1`, `param2`, and `playerName` with actual values relevant to your mod. Additionally, customize the instructions based on your mod's structure and requirements.
 ```
