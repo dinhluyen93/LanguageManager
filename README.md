@@ -40,6 +40,7 @@ The GTA V Mod Language Manager is a C# utility designed for seamless integration
    // Retrieve and display a formatted string
    string formattedString = languageManager.GetLocalizedString("WelcomeMessage", playerName);
    UI.Screen.ShowSubtitle(formattedString, 5000);
+****
 ## Contribution
 Contributions are welcome! Feel free to submit issues, feature requests, or pull requests.
 
