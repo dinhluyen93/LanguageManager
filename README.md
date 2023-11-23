@@ -33,19 +33,20 @@ The GTA V Mod Language Manager is a C# utility designed for seamless integration
 4. Integrate the `LanguageManager` into your mod to streamline language localization.
 
 ## Example
-   ```csharp
-   // Initialize LanguageManager
-   LanguageManager languageManager = new LanguageManager("path/to/languagefile.xml");
-   
-   // Retrieve and display a formatted string
-   string formattedString = languageManager.GetLocalizedString("WelcomeMessage", playerName);
-   UI.Screen.ShowSubtitle(formattedString, 5000);
-****
+```csharp
+// Initialize LanguageManager
+LanguageManager languageManager = new LanguageManager("path/to/languagefile.xml");
+
+// Retrieve and display a formatted string
+string formattedString = languageManager.GetLocalizedString("WelcomeMessage", playerName);
+UI.Screen.ShowSubtitle(formattedString, 5000);
+```
+
 ## Contribution
 Contributions are welcome! Feel free to submit issues, feature requests, or pull requests.
 
 ## License
 This project is licensed under the MIT License.
-   ```vbnet
-   Remember to replace `"path/to/languagefile.xml"`, `"StringKey"`, `"WelcomeMessage"`, `param1`, `param2`, and `playerName` with actual values relevant to your mod. Additionally, customize the instructions based on your mod's structure and requirements.
-****
+```vbnet
+Remember to replace `"path/to/languagefile.xml"`, `"StringKey"`, `"WelcomeMessage"`, `param1`, `param2`, and `playerName` with actual values relevant to your mod. Additionally, customize the instructions based on your mod's structure and requirements.
+```
