@@ -25,7 +25,7 @@ The GTA V Mod Language Manager is a C# utility designed for seamless integration
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/your-mod.git
+   git clone https://github.com/dinhluyen93/LanguageManager.git
 2. Include the `LanguageManager.cs` file in your GTA V mod project.
 
 3. Customize the `languagefile.xml` with your localized strings.
